@@ -1,0 +1,55 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #364150;
+}
+.dashboard
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: white !important;
+
+}
+.login 
+{
+    width: 35% !important;
+    height: auto;
+    margin: auto;
+}
+.profile 
+{
+    width: 50px !important;
+    height: 50px !important;
+}
+.navbar-link
+{
+    width: 100%;
+    height: auto;
+}
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 5px 15px;
+
+}
+.navbar-link a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+@media only  screen and (max-width:520px)
+{
+    .login 
+    {
+        width: 80% !important;
+        height: auto;
+        margin: auto;
+    } 
+
+}
